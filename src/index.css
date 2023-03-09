@@ -8,6 +8,20 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+a{
+  text-decoration: none;
+  transition: .2s;
+  color: #e7b47c;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+button{
+  transition: .2s;
+  border: 1px solid #eee;
+  cursor: pointer;
 }
